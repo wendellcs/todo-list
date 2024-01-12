@@ -1,0 +1,109 @@
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.admin-container h1 {
+    margin: 20px 0;
+}
+
+.user-container {
+    width: 90%;
+    max-width: 600px;
+}
+
+.user-infos h2 {
+    font-size: 18px;
+}
+
+.user-infos p {
+    font-size: 14px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.btn-register {
+    margin: 10px 0 30px 0;
+}
+
+.list {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.list div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.list .btn-edit,
+.list .btn-concluir {
+    font-weight: bold;
+    font-size: 16px;
+    width: 70px;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.btn-concluir {
+    background: transparent;
+    color: #ffcc23;
+}
+
+.btn-edit:hover {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-concluir:hover {
+    border: 1px solid #ffcc23;
+}
+
+
+.btn-logout {
+    position: absolute;
+    bottom: 6%;
+    left: 4%;
+    background: rgb(219, 38, 41, 0.35);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.btn-logout:hover {
+    background: rgb(219, 38, 41, 1);
+    color: #fff;
+}
+
+.task-container {
+    background: rgb(18, 18, 18, 0.38);
+    display: flex;
+    padding: 10px 0;
+    border: 1px solid #ffffff3d;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.task-container p {
+    padding: 10px 0;
+}
