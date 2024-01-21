@@ -1,1 +1,1 @@
-# React ToDo List
+# React project - ToDo List
